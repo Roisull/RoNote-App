@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/etSeeTitleDetailRoNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:hint="Judul"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"/>
+
+        <EditText
+            android:id="@+id/etSeeDescDetailRoNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Desc"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/etSeeTitleDetailRoNote"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
