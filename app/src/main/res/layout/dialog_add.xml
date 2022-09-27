@@ -12,7 +12,7 @@
         android:padding="20dp">
 
         <EditText
-            android:id="@+id/tvInputJudulDialogAdd"
+            android:id="@+id/etInputJudulDialogAdd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Judul"
@@ -25,7 +25,7 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
         <EditText
-            android:id="@+id/tvInputDescDialogAdd"
+            android:id="@+id/etInputDescDialogAdd"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Ro note"
