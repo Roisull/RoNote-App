@@ -11,7 +11,7 @@ import kotlinx.parcelize.Parcelize
 class RoNote (
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
-    val id: Int = 0,
+    var id: Int = 0,
     @ColumnInfo(name = "title")
     var title: String? = null,
     @ColumnInfo(name = "description")
